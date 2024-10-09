@@ -10,11 +10,16 @@ export default function Contact() {
 
         e.preventDefault()
 
+        if (nome === '' || email === '' || mensagem === '') {
+            return ''
+        }
+
         console.log(`Nome: ${nome} • Email: ${email} • Mensagem: ${mensagem}`)
 
-        setNome = ('')
-        setEmail = ('')
-        setMensagem = ('')
+        setNome('')
+        setEmail('')
+        setMensagem('')
+
 }
 
     return(
