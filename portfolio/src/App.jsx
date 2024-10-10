@@ -17,7 +17,7 @@ function App() {
 
             <div className="fixed z-[1000] flex flex-col justify-between py-10 border-2 border-primary w-[90%] h-[90%]">
 
-              <div className="fixed ">
+              <div className="fixed">
                 <Nav/>
               </div>
               
