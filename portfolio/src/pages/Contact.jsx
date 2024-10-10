@@ -1,4 +1,5 @@
 import { useState } from "react"
+import emailjs from '@emailjs/browser'
 
 export default function Contact() {
 
@@ -11,14 +12,26 @@ export default function Contact() {
         e.preventDefault()
 
         if (nome === '' || email === '' || mensagem === '') {
-            return ''
+            alert('Preencha todos os campos.')
+            return;
         }
 
-        console.log(`Nome: ${nome} • Email: ${email} • Mensagem: ${mensagem}`)
+        const templateParams = {
+            from_name: nome,
+            mensagem: mensagem,
+            email: email
+        }
 
-        setNome('')
-        setEmail('')
-        setMensagem('')
+        emailjs.send('service_97jqdmk', 'template_khbszyo', templateParams, '43TBQJWHZMtb3aCMF')
+        .then((response) => {
+            console.log('Email enviado!', response.status, response.text)
+            setNome('')
+            setEmail('')
+            setMensagem('')
+
+            }, (err) => {
+                console.log('ERRO: ', err)
+            })
 
 }
 
