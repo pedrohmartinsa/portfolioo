@@ -21,14 +21,11 @@ function App() {
                 <Nav/>
               </div>
               
-
               <div className="absolute bottom-0 right-0 h-[50%] w-[75vw] overflow-y-scroll md:h-[70%] pl-12 md:pl-0 md:p-7 md:mr-4">
               <Outlet/>
               </div>
             </div>
-            
-            
-
+    
             <div className="fixed bottom-[-14px] mb-1 w-[100vw] py-4 px-8 md:px-[3rem] lg:px-[4rem] xl:px-[5rem] 2xl:px-[6rem]">
 
             <Footer/>
