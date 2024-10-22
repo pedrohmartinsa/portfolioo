@@ -37,7 +37,7 @@ export default function Contact() {
 
     return(
         <>
-        <div className="ml-2 flex flex-col gap-3">
+        <div className="ml-2 flex flex-col items-center gap-3">
 
                 <h3 className="text-lg font-bold">Caso queira me contatar, basta preencher os campos abaixo.</h3>
 
