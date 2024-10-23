@@ -40,7 +40,7 @@ export default function About() {
 
     return(
         <>
-            <div className="flex flex-col gap-20 text-[13px] md:text-lg font-bold">
+            <div className="flex flex-col items-center gap-20 text-[13px] md:text-lg font-bold">
                 <div className="flex flex-col gap-3">
                     <h2 className="text-lg">Coisas que gosto de fazer:</h2>
                     <ul className="flex flex-col gap-3">
@@ -69,7 +69,7 @@ export default function About() {
 
                 <div className="flex flex-col gap-10">
 
-                    <div className="flex flex-col gap-3">
+                    <div className="flex flex-col items-center gap-3">
                         <h2 className="text-lg">Habilidades:</h2>
 
                         <div className="flex justify-center flex-wrap gap-9 max-w-6xl mx-auto">
@@ -83,7 +83,7 @@ export default function About() {
                         </div>
                     </div>
                     
-                    <div className="flex flex-col gap-3">
+                    <div className="flex flex-col items-center gap-3">
 
                         <h2 className="text-lg">Ferramentas:</h2>
                         <div className="flex justify-center flex-wrap gap-9 max-w-6xl mx-auto">

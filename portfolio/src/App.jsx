@@ -16,10 +16,10 @@ function App() {
             <div className="border-primary border-2 w-[95vw] h-screen pt-3">
               <Header/>
               <div className="flex items-end justify-center h-[80%]">
-                <div className="self-start">
+                <div className="left-4 bottom-56">
                   <Nav/>
                 </div>
-                <div className="self-end h-[100vw]  overflow-auto">
+                <div className="h-[80vw] overflow-auto">
                   <Outlet/>
                 </div>
               </div>
