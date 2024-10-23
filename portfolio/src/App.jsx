@@ -19,7 +19,7 @@ function App() {
                 <div className="self-start">
                   <Nav/>
                 </div>
-                <div className="self-end h-[100vw] overflow-auto">
+                <div className="self-end h-[100vw]  overflow-auto">
                   <Outlet/>
                 </div>
               </div>
