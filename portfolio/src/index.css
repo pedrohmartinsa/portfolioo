@@ -7,11 +7,7 @@
   padding: 0;
 }
 
-/* .active::before{
-  content: '• ';
+.active {
+  color: rgb(68, 56, 74);
 }
-
-.active::after {
-  content: ' •';
-} */
 

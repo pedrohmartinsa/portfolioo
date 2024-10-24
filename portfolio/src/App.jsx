@@ -11,15 +11,15 @@ function App() {
 
   return (
     <>
-      <div className='text-primary bg-secondary'>
-          <div className="flex flex-col items-center justify-center pt-4 h-full">
-            <div className="flex flex-col justify-between border-primary border-2 w-[95vw] h-screen pt-3">
+      <div className='text-primary bg-secondary h-full'>
+          <div className="flex flex-col items-center justify-center pt-4">
+            <div className="flex flex-col justify-between border-primary border-2 w-[95vw] h-screen p-5">
               <Header/>
-              <div className="flex flex-col md:grid md:grid-cols-3 md:grid-rows-2 justify-between h-[85%]">
-                <div className="h-[90%] w-auto overflow-auto md:col-start-2 md:col-end-4">
+              <div className="flex flex-col justify-between gap-4 items-center md:grid md:grid-cols-[100px_auto_auto] md:grid-rows-2 h-[85%]">
+                <div className="h-[80%] w-[100%] overflow-auto md:col-start-2 md:col-end-4 md:row-start-1 md:row-end-3">
                   <Outlet/>
                 </div>
-                <div className="md:col-start-1 md:row-start-1">
+                <div className="mb-2 md:col-start-1 md:row-start-1">
                   <Nav/>
                 </div>
               </div>

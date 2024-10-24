@@ -11,7 +11,7 @@ export default function Nav() {
 
     return(
         <>
-            <div className="flex justify-between w-auto p-2 md:flex-col md:h-72 md:justify-between md:text-[18px] font-bold transition-all duration-300">
+            <div className="flex justify-between gap-12 w-auto p-2 md:flex-col md:h-72 md:justify-between md:text-[18px] font-bold transition-all duration-300">
 
                 <NavLink className='relative md:hover:text-slate-500' to='/'>
                     <span className="absolute opacity-0 md:opacity-100">Home</span>
