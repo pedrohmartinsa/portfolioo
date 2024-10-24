@@ -7,11 +7,11 @@
   padding: 0;
 }
 
-.active::before{
+/* .active::before{
   content: '• ';
 }
 
 .active::after {
   content: ' •';
-}
+} */
 
