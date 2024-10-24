@@ -38,8 +38,8 @@ export default function CertificatesBox( { titulo, json } ) {
                             json
                             .map((detalhes) => (
                                 <Link to= {`/certificates/${detalhes.id}/${detalhes.titulo}/${detalhes.tempo}/${detalhes.conteudo}/${detalhes.foto}`}
-                                    className="mr-2 p-2 justify-center items-center hover:bg-primary hover:text-secondary duration-300 border-primary border-2 gap-4 rounded-md">
-                                    <div className="flex items-center justify-start gap-1">
+                                    className="group transform transition-transform hover:scale-125 mr-2 p-2 w-60 justify-center items-center hover:bg-primary hover:text-secondary duration-300 border-primary border-2 gap-4 rounded-md">
+                                    <div className="flex items-center justify-start gap-1 group-hover:translate-y-[-5px]  transition-transform duration-150">
                                         {icons[detalhes.icon1]}
                                         {icons[detalhes.icon2]}
                                     </div>
