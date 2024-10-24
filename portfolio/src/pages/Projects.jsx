@@ -5,7 +5,7 @@ import { GoProjectRoadmap } from "react-icons/go";
 export default function Projects() {
     return(
         <>
-            <div className="flex flex-col items-center gap-6 h-screen md:h-0">
+            <div className="flex flex-col items-center gap-6 h-auto md:h-0">
                 <div className="flex gap-3 items-center mr-3">
                     <GoProjectRoadmap size={30}/>
                     <h3 className="text-2xl font-bold self-center">Projetos</h3>
