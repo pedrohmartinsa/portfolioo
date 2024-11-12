@@ -11,7 +11,7 @@ export default function Certificates() {
 
     return(
         <>
-            <div className="flex flex-col items-center gap-6">
+            <div className="flex flex-col items-center gap-6 p-4">
                 <div className='flex items-center gap-3'>
                     <TbCertificate size={30}/>
                     <h3 className="text-2xl font-bold self-center">Certificados</h3>

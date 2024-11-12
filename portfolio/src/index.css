@@ -7,11 +7,7 @@
   padding: 0;
 }
 
-.active::before{
-  content: '• ';
-}
-
-.active::after {
-  content: ' •';
+.active {
+  color: rgb(75, 60, 82);
 }
 
