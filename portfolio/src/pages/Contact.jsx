@@ -1,5 +1,8 @@
 import { useState } from "react"
 import emailjs from '@emailjs/browser'
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 export default function Contact() {
 
@@ -37,7 +40,7 @@ export default function Contact() {
 
     return(
         <>
-        <div className="ml-2 flex flex-col items-center gap-3 h-auto md:h-0">
+        <div className="ml-2 flex flex-col items-center gap-6 h-auto md:h-0">
 
                 <h3 className="text-lg font-bold">Caso queira me contatar, basta preencher os campos abaixo.</h3>
 
@@ -87,6 +90,20 @@ export default function Contact() {
                     <button type="submit" className="bg-secondary mt-5 text-primary self-end w-24 h-10 hover:text-secondary hover:bg-primary border border-primary rounded-md mr-3">Enviar</button>
 
                 </form>
+                <h3 className="text-lg font-bold">Ou, me acompanhe em minhas redes mais ativas:</h3>
+                <div className="flex gap-6">
+                        <a href="https://www.linkedin.com/in/pedrohmas/">
+                            <FaLinkedin size={50}/>
+                        </a>
+
+                        <a href="https://www.github.com/pedrohmartinsa/">
+                            <FaGithubSquare size={50}/>
+                        </a>
+
+                        <a href="https://www.instagram.com/pedroo_hmas/">
+                            <AiFillInstagram  size={50}/>
+                        </a>
+                </div>
 
         </div>
         </>
