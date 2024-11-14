@@ -6,10 +6,6 @@ export default function ProjectsBox( { json } ) {
         projeto: <IoCodeWorking/>
     }
 
-    const repositorio = {
-
-    }
-
     return(
         <>
             <div className="flex justify-center flex-wrap gap-9 max-w-6xl mx-auto">
