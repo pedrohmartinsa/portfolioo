@@ -15,7 +15,7 @@ export default function ProjectPage() {
 
     const sites = {
         culturama: "",
-        cp_web: "",
+        cp_web: "https://web-dev-cp-1-2-s.vercel.app/",
         prototipo: "",
         vibra_volt: "https://gs-bice.vercel.app/"
     }
@@ -43,9 +43,7 @@ export default function ProjectPage() {
                             <CiLink size={25}/>
                             repositório
                         </a>
-                        {
-                            if (sites[site] == ) {}
-                        }
+                        
                         <a className="flex items-center justify-center border border-primary w-36 h-11 rounded-lg gap-2 font-bold cursor-pointer hover:text-secondary hover:bg-primary" href={sites[site]}>
                             <CiLink size={25}/>
                             site
