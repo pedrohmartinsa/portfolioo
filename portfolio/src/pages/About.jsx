@@ -16,6 +16,8 @@ import { VscVscode } from "react-icons/vsc";
 import { SiPycharm } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { SiIntellijidea } from "react-icons/si";
 
 export default function About() {
 
@@ -27,7 +29,8 @@ export default function About() {
         {name: 'React', icon:<FaReact size={30}/>},
         {name: 'Vite', icon: <SiVite size={30}/>},
         {name: 'Excel', icon: <PiMicrosoftExcelLogoFill size={30}/>},
-        {name: 'Github', icon: <FaGithub size={30}/>}
+        {name: 'Github', icon: <FaGithub size={30}/>},
+        {name: 'Java', icon: <FaJava size={30}/>}
         
     ]
 
@@ -35,7 +38,9 @@ export default function About() {
         {name: 'VSCode', icon:<VscVscode size={30}/>},
         {name: 'PyCharm', icon:<SiPycharm size={30}/>},
         {name: 'NodeJS', icon:<FaNodeJs size={30}/>},
-        {name: 'Figma', icon: <FaFigma size={30}/>}
+        {name: 'Figma', icon: <FaFigma size={30}/>},
+        {name: 'IntelliJ', icon: <SiIntellijidea size={30}/>},
+
     ]
 
     return(

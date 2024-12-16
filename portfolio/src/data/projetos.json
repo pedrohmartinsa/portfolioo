@@ -4,7 +4,9 @@
         "nome": "Culturama",
         "sobre": "Destinado a treinar flex e grid. Repassando o design do Figma para o HTML e CSS, deixando a página responsiva,",
         "repositorio": "culturama",
-        "icon": "projeto"
+        "icon": "projeto",
+        "site": "culturama"
+
     },
 
     {
@@ -12,7 +14,8 @@
         "nome": "E-hub",
         "sobre": "Protótipo da plataforma interativa para solucionar o problema de engajamento da Fórmula E TechMahindra",
         "repositorio": "prototipo",
-        "icon": "projeto"
+        "icon": "projeto",
+        "site": "prototipo"
     },
 
     {
@@ -20,6 +23,16 @@
         "nome": "CP2 - Web Dev",
         "sobre": "Repassando uma página do Figma para o React+Vite (trabalho em equipe)",
         "repositorio": "cp_web",
-        "icon": "projeto"
+        "icon": "projeto",
+        "site": "cp_web"
+    },
+
+    {
+        "id": 18,
+        "nome": "VibraVolt",
+        "sobre": "Criei uma página com o intuito de apresentar nossa ideia para a Global Solution",
+        "repositorio": "vibra_volt",
+        "icon": "projeto",
+        "site": "vibra_volt"
     }
 ]

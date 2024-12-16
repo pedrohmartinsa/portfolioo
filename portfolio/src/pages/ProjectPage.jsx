@@ -4,12 +4,20 @@ import { CiLink } from "react-icons/ci";
 
 export default function ProjectPage() {
 
-    const {id, nome, sobre, repositorio} = useParams()
+    const {id, nome, sobre, repositorio, site} = useParams()
 
     const repositorios = {
         culturama: "https://github.com/pedrohmartinsa/culturama",
         cp_web: "https://github.com/pedrohmartinsa/WebDev-CP1-2S",
-        prototipo: "https://github.com/pedrohmartinsa/TechMahindra__Prototipo"
+        prototipo: "https://github.com/pedrohmartinsa/TechMahindra__Prototipo",
+        vibra_volt: "https://github.com/pedrohmartinsa/GS"
+    }
+
+    const sites = {
+        culturama: "",
+        cp_web: "",
+        prototipo: "",
+        vibra_volt: "https://gs-bice.vercel.app/"
     }
 
     return(
@@ -30,11 +38,21 @@ export default function ProjectPage() {
                         <p className="text-justify mr-3 w-auto ">{sobre}</p>
                     </div>
 
-                    
-                    <a className="flex items-center justify-center border border-primary w-36 h-11 rounded-lg gap-2 font-bold cursor-pointer hover:text-secondary hover:bg-primary" href={repositorios[repositorio]}>
-                        <CiLink size={25}/>
-                        repositório
-                    </a>
+                    <div className="flex gap-6">
+                        <a className="flex items-center justify-center border border-primary w-36 h-11 rounded-lg gap-2 font-bold cursor-pointer hover:text-secondary hover:bg-primary" href={repositorios[repositorio]}>
+                            <CiLink size={25}/>
+                            repositório
+                        </a>
+                        {
+                            if (sites[site] == ) {}
+                        }
+                        <a className="flex items-center justify-center border border-primary w-36 h-11 rounded-lg gap-2 font-bold cursor-pointer hover:text-secondary hover:bg-primary" href={sites[site]}>
+                            <CiLink size={25}/>
+                            site
+                        </a>
+                    </div>
+
+
 
                 </div>
             </div>
