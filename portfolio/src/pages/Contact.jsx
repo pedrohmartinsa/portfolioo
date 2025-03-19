@@ -17,6 +17,8 @@ export default function Contact() {
         if (nome === '' || email === '' || mensagem === '') {
             alert('Preencha todos os campos.')
             return;
+        } else {
+            alert('Mensagem enviada.')
         }
 
         const templateParams = {
@@ -53,7 +55,7 @@ export default function Contact() {
                             type="text" 
                             placeholder="Nome..."
                             id="nome"
-                            className="text-primary border-primary bg-secondary border rounded-md h-8 "
+                            className="text-primary border-primary bg-secondary border rounded-md h-8 p-1"
                             value={nome}
                             onChange={e => setNome (e.target.value)}
                             />
@@ -67,7 +69,7 @@ export default function Contact() {
                             type="email" 
                             placeholder="Email..."
                             id="nome"
-                            className="text-primary border-primary bg-secondary border rounded-md h-8"
+                            className="text-primary border-primary bg-secondary border rounded-md h-8 p-1"
                             value={email}
                             onChange={e => setEmail (e.target.value)}
                             />
@@ -80,7 +82,7 @@ export default function Contact() {
                         placeholder="Mensagem..."
                         cols="30"
                         rows="10"
-                        className="text-primary bg-secondary border border-primary rounded-md w-48 md:w-auto"
+                        className="text-primary bg-secondary border border-primary rounded-md w-48 md:w-auto p-1"
                         value={mensagem}
                         onChange={e => setMensagem (e.target.value)}
                     >
